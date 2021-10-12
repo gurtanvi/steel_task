@@ -1,0 +1,20 @@
+
+The task is to rank the senors according to their importance/predictive with respect to class labels of the samples. 
+First step is to explore the dataset and making correlation matrix to identify is there is correlation between the features. This dataset doesn't have correlated features. Feature importance can be implemented using Random Forest, XGBoost, Pricicle Component Ananlysis (PCA). 
+I am using Random Forest Classifier for this task as it is used to solve regression and classification problems. It uses ensemble learning, consisting a large number of individual decision trees. Each individual tree in the random forest gives a class prection and the class with most votes become the model's prediction. 
+
+Properties of artificially generated dataset:
+Synthetic data is important for businesses due to three reasons: privacy, product testing and training machine learning algorithms. 
+
+Strength of your method : 
+    Random Forest uses Bootstrap Aggregation by allowing each individual tree to randomly sample from the dataset with replacement, resulting in different trees. 
+    Feature Randomness: Unlike normal decision tree, which considers every possible feature and pick the one that produces the most separation between the observations in the left node vs- those in the right node. In contrast, each tree in random forest can pick only from subset of features. This ensures more variation amongst the trees in the model and ultimately results in lower correlation across trees and more diversification.
+
+
+Alternative Method :
+
+XGBoost Classifier: 
+XGBoost dominates structured or tabular datasets on classification and regression predictive modeling problems. Gradient boosting is an approach where new models are created that predict the residuals or errors of prior models and then added together to make the final prediction. It is called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models.
+
+
+Principal Component Analysis is unsupervised dimentionality reduction technique that contructs relevant features/variables through linear (linera PCA) or non-linera combinations of features. PCA is useful in identifying the importance of features, reducing the dimensions of the input features and denoising. Weakness of this technique it has hard time working with missing data and outliers. Interpretability is another issue. Once the original variables are replaced with principal components, it is difficult to interpret the results.
