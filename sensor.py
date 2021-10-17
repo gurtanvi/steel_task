@@ -14,12 +14,10 @@ np.random.seed(seed = 42)
 def get_labels_and_features(train_data):
     with open(train_data, mode = 'r') as f:
         data = pd.read_csv(f)
-        #print(data)
         headers = np.array(list(data.columns.values))
         feature_names = headers[2:]
         class_labels = data.class_label
         feature_values = pd.DataFrame(data,columns=feature_names)
-        #print(class_labels)
     return class_labels, feature_values
 
 
