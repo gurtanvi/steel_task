@@ -66,7 +66,7 @@ def xgb_appraoch(class_labels, feature_values):
 
 if __name__ == '__main__':
   # use the above defined functions here
-  get_class_labels, get_feature_values = get_labels_and_features('/home/gurleenkaur/steel_task/steel_task/task_data.csv')
+  get_class_labels, get_feature_values = get_labels_and_features('./task_data.csv')
   print(get_class_labels, get_feature_values)
   explore_dataset(get_class_labels, get_feature_values)
   get_imp_feature, get_plot, get_oob_score = random_forest_classifier_approach(get_class_labels, get_feature_values)
