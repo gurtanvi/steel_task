@@ -21,11 +21,3 @@ possible topics including:
 * weaknesses of your method: when would the method produce inaccurate results?
 * scalability of your method with respect to number of features and/or samples
 * alternative methods and their respective strengths, weaknesses, scalability
-
-Technical requirements
-----------------------
-Please submit *one* zip file that contains the following:
-    * .txt or .csv of ranked list of sensors
-    * .txt or .pdf of analysis
-    * Python script (.py) without parameters and/or Jupyer notebook (.ipynb)
-    * requirements.txt
