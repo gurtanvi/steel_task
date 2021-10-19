@@ -21,3 +21,31 @@ possible topics including:
 * weaknesses of your method: when would the method produce inaccurate results?
 * scalability of your method with respect to number of features and/or samples
 * alternative methods and their respective strengths, weaknesses, scalability
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* Python \(version 3.7\)
+
+## Local setup
+
+* Clone the repo
+
+```text
+git clone https://github.com/gurtanvi/steel_task
+```
+
+* Install the dependencies
+
+```text
+pip install -r requirements.txt
+```
+
+* Execute the code
+
+```text
+python sensor.py
+```
+
+## 
